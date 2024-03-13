@@ -1,0 +1,24 @@
+button, :global(.button) {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  & > * {
+    position: relative;
+  }
+}
+
+button {
+  & > :global(.icon) {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,19 @@
+.lorePage {
+  height: 100%;
+  align-items: center;
+  background-image: url('/img/explore/lore-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  scroll-snap-align: start;
+  z-index: 1;
+
+  @media (max-width: 899px) {
+    height: auto;
+    min-height: 100vh;
+  }
+}

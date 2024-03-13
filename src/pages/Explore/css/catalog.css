@@ -1,0 +1,10 @@
+@import '../../../css/root';
+
+.buttonIcon {
+  width: 36px;
+  height: 36px;
+
+  img {
+    height: 100%;
+  }
+}
